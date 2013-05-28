@@ -19,4 +19,8 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.0'
 end
 
+group :test, :development do
+  gem "rspec-rails", "~> 2.0"
+end
+
 gem 'jquery-rails'
